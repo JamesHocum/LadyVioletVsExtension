@@ -1,0 +1,30 @@
+#terminal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#terminal-output {
+    flex-grow: 1;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+#terminal-input {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #f0f0f0;
+    font-family: monospace;
+    font-size: 14px;
+}
