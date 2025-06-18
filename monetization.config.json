@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "exclusions": ["JamesHocum"],
+  "options": {
+    "donations": true,
+    "sponsorships": true,
+    "premiumFeatures": false
+  }
+}
